@@ -1,0 +1,172 @@
+10:04:11.924 [main] INFO  testCases.TC_001_LoginTest - Entered username
+10:04:12.056 [main] INFO  testCases.TC_001_LoginTest - Entered password
+10:04:12.128 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+10:04:12.258 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+10:04:12.333 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+10:51:52.955 [main] INFO  testCases.TC_001_LoginTest - Entered username
+10:51:53.061 [main] INFO  testCases.TC_001_LoginTest - Entered password
+10:51:53.135 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+10:51:53.232 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+10:51:53.275 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+11:01:42.987 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:01:43.156 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:01:43.245 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:01:43.367 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:01:43.422 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+12:11:40.297 [TestNG-tests-2] INFO  testCases.TC_001_LoginTest - Entered username
+12:11:40.537 [TestNG-tests-1] INFO  testCases.TC_001_LoginTest - Entered username
+12:11:40.725 [TestNG-tests-1] INFO  testCases.TC_001_LoginTest - Entered password
+12:11:40.847 [TestNG-tests-1] INFO  testCases.TC_001_LoginTest - Clicked login button
+12:11:41.169 [TestNG-tests-1] INFO  testCases.TC_001_LoginTest - Checked for label match
+12:11:41.266 [TestNG-tests-2] INFO  testCases.TC_001_LoginTest - Entered password
+12:11:41.282 [TestNG-tests-1] INFO  testCases.TC_001_LoginTest - Login testcase finished
+12:11:41.642 [TestNG-tests-2] INFO  testCases.TC_001_LoginTest - Clicked login button
+12:11:41.949 [TestNG-tests-2] INFO  testCases.TC_001_LoginTest - Checked for label match
+12:11:42.076 [TestNG-tests-2] INFO  testCases.TC_001_LoginTest - Login testcase finished
+12:24:33.803 [main] INFO  testCases.TC_001_LoginTest - Entered username
+12:24:33.973 [main] INFO  testCases.TC_001_LoginTest - Entered password
+12:24:34.074 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+12:24:34.259 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+12:24:34.368 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:17:33.313 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:17:33.441 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:17:33.523 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:17:33.639 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:17:33.681 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:18:59.530 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:18:59.627 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:18:59.696 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:18:59.793 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:18:59.838 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:20:20.351 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:20:20.460 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:20:20.530 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:20:20.630 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:20:20.672 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:21:20.446 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:21:20.545 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:21:20.608 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:21:20.702 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:21:20.754 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:22:20.566 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:22:20.675 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:22:20.735 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:22:20.736 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:22:20.758 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:24:28.984 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:24:29.092 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:24:29.160 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:24:29.266 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:24:29.339 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:34:05.699 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:34:05.803 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:34:05.803 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:34:05.849 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:34:05.872 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:35:09.772 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:35:09.886 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:35:09.886 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:35:19.948 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:35:19.985 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:39:30.356 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:39:30.474 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:39:30.474 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:39:40.523 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:39:40.570 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:44:43.920 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:44:43.922 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:44:43.922 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:44:53.933 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:44:53.973 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:50:13.478 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:50:13.480 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:50:13.480 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:50:23.483 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:50:23.520 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+16:53:02.538 [main] INFO  testCases.TC_001_LoginTest - Entered username
+16:53:02.540 [main] INFO  testCases.TC_001_LoginTest - Entered password
+16:53:02.638 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+16:53:12.699 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+16:53:12.720 [main] INFO  testCases.TC_001_LoginTest - Login testcase finished
+17:13:38.033 [main] INFO  testCases.TC_001_LoginTest - Entered username
+17:13:38.035 [main] INFO  testCases.TC_001_LoginTest - Entered password
+17:13:38.133 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+17:13:48.194 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+17:15:23.422 [main] INFO  testCases.TC_001_LoginTest - Entered username
+17:15:23.428 [main] INFO  testCases.TC_001_LoginTest - Entered password
+17:15:23.515 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+17:15:33.576 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+17:15:56.294 [main] INFO  testCases.TC_001_LoginTest - Entered username
+17:15:56.299 [main] INFO  testCases.TC_001_LoginTest - Entered password
+17:15:56.396 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+17:16:01.459 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:44:48.967 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:44:48.970 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:44:49.079 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:44:54.157 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:49:24.228 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:49:24.232 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:49:24.370 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:49:29.477 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:54:36.491 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:54:36.497 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:54:36.629 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:54:41.720 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:56:10.439 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:56:10.443 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:56:10.544 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:56:15.627 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:57:42.077 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:57:42.079 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:57:42.178 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:57:47.240 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+11:59:22.715 [main] INFO  testCases.TC_001_LoginTest - Entered username
+11:59:22.719 [main] INFO  testCases.TC_001_LoginTest - Entered password
+11:59:22.845 [main] INFO  testCases.TC_001_LoginTest - Clicked login button
+11:59:27.932 [main] INFO  testCases.TC_001_LoginTest - Checked for label match
+18:15:13.287 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:15:13.378 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered password
+18:15:13.425 [main] INFO  testCases.TC_002_LoginTest_DDT - Clicked login button
+18:15:18.529 [main] INFO  testCases.TC_002_LoginTest_DDT - Checked for label match
+18:15:28.820 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:15:39.125 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:15:49.359 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:15:59.602 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:16:09.886 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:16:20.219 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:16:30.466 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:16:40.666 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:16:51.047 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:20:17.906 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:20:17.986 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered password
+18:20:18.036 [main] INFO  testCases.TC_002_LoginTest_DDT - Clicked login button
+18:20:23.117 [main] INFO  testCases.TC_002_LoginTest_DDT - Checked for label match
+18:20:33.537 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:20:44.051 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:20:54.346 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:04.628 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:14.888 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:25.143 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:35.587 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:45.903 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+18:21:56.221 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:13:56.355 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:13:56.511 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered password
+19:13:56.575 [main] INFO  testCases.TC_002_LoginTest_DDT - Clicked login button
+19:14:01.686 [main] INFO  testCases.TC_002_LoginTest_DDT - Checked for label match
+19:14:11.961 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:14:22.277 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:14:32.499 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:15:29.509 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:15:29.631 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered password
+19:15:29.686 [main] INFO  testCases.TC_002_LoginTest_DDT - Clicked login button
+19:15:34.790 [main] INFO  testCases.TC_002_LoginTest_DDT - Checked for label match
+19:15:45.179 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:15:55.411 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:05.644 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:16.128 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:26.463 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:36.682 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:46.938 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:16:57.265 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
+19:17:07.530 [main] INFO  testCases.TC_002_LoginTest_DDT - Entered username
