@@ -2,6 +2,7 @@ package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -9,7 +10,7 @@ import testBase.BaseClass;
 import utilities.DataProviders;
 
 public class TC_001_LoginTest extends BaseClass {
-	
+	SoftAssert sa=new SoftAssert();
 	
 	@Test
 	void test_login() throws InterruptedException
@@ -18,10 +19,26 @@ public class TC_001_LoginTest extends BaseClass {
 		try {
 		LoginPage lp = new LoginPage(driver);
 		HomePage hp = new HomePage(driver);
-		logger.info("Entered username");
+		logger.info("Enter the username");
 		lp.enterusername(rb.getString("username"));
-		logger.info("Entered password");
-		lp.enterpassword(rb.getString("password"));
+		String uname=lp.getusername().getText();
+		if(uname.equals(""))
+		{
+			sa.fail();
+		}
+		else {
+			logger.info("Username is entered");
+		}
+		logger.info("Enter the password");
+		//lp.enterpassword(rb.getString("password"));
+		String pass=lp.getpassword().getText();
+		if(pass.equals(""))
+		{
+			sa.fail();
+		}
+		else {
+			logger.info("password is entered");
+		}
 		logger.info("Clicked login button");
 		lp.clickloginbtn();
 		Thread.sleep(5000);

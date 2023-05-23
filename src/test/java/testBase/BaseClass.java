@@ -68,15 +68,15 @@ public class BaseClass{
 		
 		TakesScreenshot takesscreenshot=(TakesScreenshot)driver;
 		File source = takesscreenshot.getScreenshotAs(OutputType.FILE);
-		String destination = System.getProperty("user.dir") + "\\screenshot\\" + tname + "_" + timestamp;
-		
+		String path = System.getProperty("user.dir") + "/screenshot/" + tname + "_" + timestamp+".png";
+		File destination=new File(path);
 		try {
-			FileHandler.copy(source, source);
+			FileHandler.copy(source, destination);
 			//FileUtils.copyFile(source, new File(destination));
 		} catch (IOException e) {
 			e.getMessage();
 		}
-		return destination;
+		return path;
 		
 	}
 	

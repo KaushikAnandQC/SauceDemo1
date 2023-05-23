@@ -32,15 +32,15 @@ public class ExtentReportManager implements ITestListener {
 
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("SauceDemo Report"); // Title of report
+		sparkReporter.config().setReportName("SauceDemo Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "opencart");
-		extent.setSystemInfo("Module", "Admin");
-		extent.setSystemInfo("Sub Module", "Customers");
+		extent.setSystemInfo("Application", "SauceDemo");
+		extent.setSystemInfo("Module", "Login");
+		extent.setSystemInfo("Sub Module", "Login");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
@@ -54,7 +54,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getName());
 		test.log(Status.FAIL, "Test Failed");
-		test.log(Status.FAIL, result.getThrowable().getMessage());
+		test.log(Status.FAIL, result.getMethod().getMethodName());
 
 		try {
 			String imgPath = new BaseClass().captureScreenshot(result.getName());
@@ -67,7 +67,8 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getName());
 		test.log(Status.SKIP, "Test Skipped");
-		test.log(Status.SKIP, result.getThrowable().getMessage());
+		// test.log(Status.SKIP, result.getThrowable().getMessage());
+		test.log(Status.SKIP, result.getTestName());
 	}
 
 	public void onFinish(ITestContext testContext) {
@@ -77,20 +78,16 @@ public class ExtentReportManager implements ITestListener {
 		 * try { URL url = new
 		 * URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
 		 * 
-		 * // Create the email message 
-		 * ImageHtmlEmail email = new ImageHtmlEmail();
+		 * // Create the email message ImageHtmlEmail email = new ImageHtmlEmail();
 		 * email.setDataSourceResolver(new DataSourceUrlResolver(url));
-		 * email.setHostName("smtp.googlemail.com"); 
-		 * email.setSmtpPort(465);
-		 * email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com","password")); 
-		 * email.setSSLOnConnect(true);
-		 * email.setFrom("pavanoltraining@gmail.com"); //Sender
-		 * email.setSubject("Test Results");
+		 * email.setHostName("smtp.googlemail.com"); email.setSmtpPort(465);
+		 * email.setAuthenticator(new
+		 * DefaultAuthenticator("pavanoltraining@gmail.com","password"));
+		 * email.setSSLOnConnect(true); email.setFrom("pavanoltraining@gmail.com");
+		 * //Sender email.setSubject("Test Results");
 		 * email.setMsg("Please find Attached Report....");
-		 * email.addTo("pavankumar.busyqa@gmail.com"); //Receiver 
-		 * email.attach(url, "extent report", "please check report..."); 
-		 * email.send(); // send the email 
-		 * }
+		 * email.addTo("pavankumar.busyqa@gmail.com"); //Receiver email.attach(url,
+		 * "extent report", "please check report..."); email.send(); // send the email }
 		 * catch(Exception e) { e.printStackTrace(); }
 		 */
 	}

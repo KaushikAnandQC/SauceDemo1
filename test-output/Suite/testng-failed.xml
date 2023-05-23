@@ -6,19 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="sanity"/>
-        <include name="smoke"/>
-        <exclude name="regression"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCases.TC_001_LoginTest_Grouping">
+      <class name="testCases.TC_001_LoginTest">
         <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
           <include name="test_login"/>
         </methods>
-      </class> <!-- testCases.TC_001_LoginTest_Grouping -->
+      </class> <!-- testCases.TC_001_LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

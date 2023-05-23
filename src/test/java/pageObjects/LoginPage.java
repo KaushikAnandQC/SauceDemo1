@@ -38,6 +38,14 @@ public class LoginPage extends BasePage {
 	{
 		loginbtn.click();
 	}
+	public WebElement getusername()
+	{
+		return username;
+	}
+	public WebElement getpassword()
+	{
+		return password;
+	}
 	
 
 }
